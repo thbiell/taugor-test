@@ -23,11 +23,7 @@ const styles = StyleSheet.create({
   },
 
 });
-function convertFirestoreTimestampToDateTime(timestamp) {
-  const seconds = timestamp.seconds;
-  const nanoseconds = timestamp.nanoseconds;
-  return new Date(seconds * 1000 + nanoseconds / 1000000);
-}
+
 
 function Layout(dataUser) {
   const data = dataUser.data
