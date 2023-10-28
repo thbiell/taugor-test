@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@/components/elements/button";
 import { useNavigate, useParams } from "react-router-dom";
-import { auth, db } from "@/config/firebase";
+import { db } from "@/config/firebase";
 import alterDataAdmin from "@/services/update/alterDataAdmin";
 import InputGeneral from "@/components/elements/input/input";
 import SelectGeneral from "@/components/elements/input/select";
