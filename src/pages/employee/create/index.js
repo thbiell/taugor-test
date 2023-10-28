@@ -12,7 +12,7 @@ import "../style.css";
 
 export default function CreateEmployee() {
     const navigate = useNavigate();
-    const atualUser = getItem() === 'administrador@taugor.teste.com';
+    
     const [gender, setGender] = React.useState(''); 
     const [urlImage, setUrlImage] = React.useState(defaultProfile); 
     const [errorMessage, setErrorMessage] = React.useState('');
