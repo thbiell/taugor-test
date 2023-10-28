@@ -10,7 +10,7 @@ async function verifyEmail(email) {
     return (await usersRef.get()).docs.length;
 }
 
-async function registerByAdmin(data, setErrorMessage, userData, urlImage) {
+async function registerByAdmin(data, setErrorMessage, userData) {
     if (userData.levelAccess === 'medium') {
         //cadastra o novo usuário no auth
         await registerUser(data.get('email'), data.get('password'), setErrorMessage);
