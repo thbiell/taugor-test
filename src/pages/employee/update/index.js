@@ -15,7 +15,7 @@ export default function UpdateEmployee() {
     const [errorMessage, setErrorMessage] = React.useState('');
     const { id } = useParams();
     const navigate = useNavigate();
-    const atualUser = auth.currentUser.email === 'administrador@taugor.teste.com';
+   
 
     React.useEffect(() => {
         if (sentinela) {
