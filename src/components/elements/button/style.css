@@ -1,0 +1,77 @@
+.input-button, .input-transparent-button, .input-button-delete, .input-button-edit{
+    display: flex;text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    padding: 6px 5%;
+    margin: 17px;
+    min-width: 10rem;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-weight: 300;
+    font-size: 12px;
+        
+}
+
+.input-button{
+    color: #fff;
+    background-color: rgb(25, 118, 210);
+    border: none;
+}
+
+.input-button-delete,.input-button-edit, .input-button-info{
+    color: #fff;
+    border: none;
+    min-width: 2.5rem;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.input-button-delete{
+    background-color: rgb(184, 21, 21);
+}
+
+.input-button-edit{
+    background-color: rgb(60, 143, 64);
+}
+
+.input-button-promotion{
+    background-color:gold;
+}
+.input-button-info{
+    background-color: rgb(25, 118, 210);
+}
+
+.input-button:disabled , .input-button-delete:disabled, .input-button-edit:disabled, .input-button-info:disabled{
+    color: #fff;
+    background-color: rgb(197, 201, 204);
+    border: none;
+    
+}
+
+
+.input-button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.input-transparent-button {
+    color: #000;
+    background-color: transparent;
+    border: .5px solid rgb(25 118 210);
+    
+    
+}
+
+.small-button {
+    min-width: auto;
+    font-size: 0.6rem;
+    font-weight: 200;
+    padding: 7px 1.4%;
+}

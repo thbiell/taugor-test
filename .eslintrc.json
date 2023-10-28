@@ -1,0 +1,43 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    // "react/jsx-uses-react": "error",
+    // "react/jsx-uses-vars": "error",
+    // "max-len": [
+    //   "error",
+    //   {
+    //     "code": 90,
+    //     "ignoreComments": true,
+    //     "ignoreUrls": true,
+    //     "ignoreRegExpLiterals": true,
+    //     "ignoreStrings": true
+    //   }
+    // ],
+    // "max-lines": [
+    //   "off"
+    // ],
+    // "no-magic-numbers": [
+    //   "off"
+    // ]
+  }
+}

@@ -1,0 +1,68 @@
+.containerHeader, 
+.containerLeft, 
+.containerRight, 
+.listItems{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+.app-icon {
+    filter: brightness(0) invert(1); 
+}
+
+.containerHeader{
+    width: 100%;
+}
+
+.containerLeft{
+    width: 70%;
+    height: 100%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+
+.containerRight{  
+    width: 30%; 
+    margin-right: 25px;
+    justify-content: flex-end;
+}
+
+.containerLogo, .containerList{
+    height: 100%;
+}
+
+.containerList{
+    width: 70%;
+}
+
+.containerLogo{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.imageLogo{
+    object-fit: cover;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.listItems{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.itemList{
+    padding: 12px;
+    width: 100px;
+}
+
+.linkItem{
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+}
