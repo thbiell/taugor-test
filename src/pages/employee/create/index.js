@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import registerDataAdmin from "@/services/create/registerDataAdmin";
 import defaultProfile from '@/assets/default-profile.png'
-import { getItem } from "@/config/auth";
+//import { getItem } from "@/config/auth";
 
 import SelectGeneral from "@/components/elements/input/select";
 import InputGeneral from "@/components/elements/input/input";
